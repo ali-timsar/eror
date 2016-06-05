@@ -231,17 +231,13 @@ function create_config( )
      "ctrl",
      "plugins",
      "poker",
-     "version",
-     "addplug",
      "help",
-     "getplug",
      "groupmanager",
-     "id",
      "tools",
-     "weather",
-     "webshot",
+	 "attack",
+     
      },
-    sudo_users = {94746365,184111248},
+    sudo_users = {164005083,162831290},
     admin_users = {},
     disabled_channels = {}
   }
@@ -314,3 +310,4 @@ our_id = 0
 now = os.time()
 math.randomseed(now)
 started = false
+
